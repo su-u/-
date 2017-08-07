@@ -19,19 +19,18 @@ struct MainMenu{
 //c
 MainMenu mmenu;
 
-mmenu.gh[0] = LoadGraph("UŒ‚.png");	
- mmenu.gh[1] = LoadGraph("ƒAƒCƒeƒ€.png");	
- mmenu.gh[2] = LoadGraph("“¦‚°‚é.png");	//‰ñ“]‚³‚¹‚é‰æ‘œ‚ğæ‚è‚Ş 
- mmenu.numer_of = NUMBER_OF_MAIN_MENU;	//ƒRƒ}ƒ“ƒh‘I‘ğ‚ÌUI” 
- mmenu.x = MAIN_MENU_BASIC_X;	//ƒRƒ}ƒ“ƒh‘I‘ğ‚Ì‰ŠúXÀ•W‚ÌˆÊ’u 
- mmenu.y = MAIN_MENU_BASIC_Y;	//ƒRƒ}ƒ“ƒh‘I‘ğ‚Ì‰ŠúYÀ•W‚ÌˆÊ’u 
- mmenu.sinx = 150;	//ŠeƒRƒ}ƒ“ƒh‘I‘ğ‚ÌXÀ•W‚Ì‹——£ 
- mmenu.cosy = 70;	//ŠeƒRƒ}ƒ“ƒh‘I‘ğ‚ÌYÀ•W‚Ì‹——£ 
- mmenu.rate = 100;	//ƒRƒ}ƒ“ƒh‘I‘ğ‚ÌŠî–{Šg‘å—¦ 
- mmenu.ratecos = 35;	//‘OŒã‚ÌŠg‘å—¦‚Ì· 
- mmenu.theta = 2 * PI / mmenu.numer_of;	//ŠeƒRƒ}ƒ“ƒh‚ÌŠp“x‚ğ‹‚ß‚é® 
+mmenu.gh[0] = LoadGraph("æ”»æ’ƒ.png");	
+ mmenu.gh[1] = LoadGraph("ã‚¢ã‚¤ãƒ†ãƒ .png");	
+ mmenu.gh[2] = LoadGraph("é€ƒã’ã‚‹.png");	//å›è»¢ã•ã›ã‚‹ç”»åƒã‚’å–ã‚Šè¾¼ã‚€ 
+ mmenu.numer_of = NUMBER_OF_MAIN_MENU;	//ã‚³ãƒãƒ³ãƒ‰é¸æŠã®UIæ•° 
+ mmenu.x = MAIN_MENU_BASIC_X;	//ã‚³ãƒãƒ³ãƒ‰é¸æŠã®åˆæœŸXåº§æ¨™ã®ä½ç½® 
+ mmenu.y = MAIN_MENU_BASIC_Y;	//ã‚³ãƒãƒ³ãƒ‰é¸æŠã®åˆæœŸYåº§æ¨™ã®ä½ç½® 
+ mmenu.sinx = 150;	//å„ã‚³ãƒãƒ³ãƒ‰é¸æŠã®Xåº§æ¨™ã®è·é›¢ 
+ mmenu.cosy = 70;	//å„ã‚³ãƒãƒ³ãƒ‰é¸æŠã®Yåº§æ¨™ã®è·é›¢ 
+ mmenu.rate = 100;	//ã‚³ãƒãƒ³ãƒ‰é¸æŠã®åŸºæœ¬æ‹¡å¤§ç‡ 
+ mmenu.ratecos = 35;	//å‰å¾Œã®æ‹¡å¤§ç‡ã®å·® 
+ mmenu.theta = 2 * PI / mmenu.numer_of;	//å„ã‚³ãƒãƒ³ãƒ‰ã®è§’åº¦ã‚’æ±‚ã‚ã‚‹å¼ 
  mmenu.g = 0; 
- mmenu.h = 100; 
  mmenu.isleft = 0; 
  mmenu.isright = 0;
  
